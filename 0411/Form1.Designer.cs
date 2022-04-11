@@ -36,6 +36,10 @@ namespace _0411
             this.textBox_Port = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.radioButton_Red = new System.Windows.Forms.RadioButton();
+            this.radioButton_Green = new System.Windows.Forms.RadioButton();
+            this.radioButton_Blue = new System.Windows.Forms.RadioButton();
+            this.radioButton_Black = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -96,11 +100,59 @@ namespace _0411
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 7;
             // 
+            // radioButton_Red
+            // 
+            this.radioButton_Red.AutoSize = true;
+            this.radioButton_Red.Location = new System.Drawing.Point(115, 173);
+            this.radioButton_Red.Name = "radioButton_Red";
+            this.radioButton_Red.Size = new System.Drawing.Size(42, 16);
+            this.radioButton_Red.TabIndex = 8;
+            this.radioButton_Red.TabStop = true;
+            this.radioButton_Red.Text = "Red";
+            this.radioButton_Red.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_Green
+            // 
+            this.radioButton_Green.AutoSize = true;
+            this.radioButton_Green.Location = new System.Drawing.Point(237, 173);
+            this.radioButton_Green.Name = "radioButton_Green";
+            this.radioButton_Green.Size = new System.Drawing.Size(51, 16);
+            this.radioButton_Green.TabIndex = 9;
+            this.radioButton_Green.TabStop = true;
+            this.radioButton_Green.Text = "Green";
+            this.radioButton_Green.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_Blue
+            // 
+            this.radioButton_Blue.AutoSize = true;
+            this.radioButton_Blue.Location = new System.Drawing.Point(352, 173);
+            this.radioButton_Blue.Name = "radioButton_Blue";
+            this.radioButton_Blue.Size = new System.Drawing.Size(45, 16);
+            this.radioButton_Blue.TabIndex = 10;
+            this.radioButton_Blue.TabStop = true;
+            this.radioButton_Blue.Text = "Blue";
+            this.radioButton_Blue.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_Black
+            // 
+            this.radioButton_Black.AutoSize = true;
+            this.radioButton_Black.Location = new System.Drawing.Point(471, 173);
+            this.radioButton_Black.Name = "radioButton_Black";
+            this.radioButton_Black.Size = new System.Drawing.Size(50, 16);
+            this.radioButton_Black.TabIndex = 11;
+            this.radioButton_Black.TabStop = true;
+            this.radioButton_Black.Text = "Black";
+            this.radioButton_Black.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.radioButton_Black);
+            this.Controls.Add(this.radioButton_Blue);
+            this.Controls.Add(this.radioButton_Green);
+            this.Controls.Add(this.radioButton_Red);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox_Port);
@@ -129,6 +181,10 @@ namespace _0411
         private System.Windows.Forms.TextBox textBox_Port;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.RadioButton radioButton_Red;
+        private System.Windows.Forms.RadioButton radioButton_Green;
+        private System.Windows.Forms.RadioButton radioButton_Blue;
+        private System.Windows.Forms.RadioButton radioButton_Black;
     }
 }
 
